@@ -2,11 +2,11 @@
 ## Installation
 * Download source code.
 ```
-git clone https://github.com/dohuuhung/EnViWord_list.git
+git clone https://github.com/fagolabs/fdict.git
 ```
 * Change directory to source code directory.
 ```
-cd EnViWord_list
+cd fdict
 ```
 * Install requirement packages.
 ```
