@@ -1,0 +1,5 @@
+googletrans==2.4.0
+XlsxWriter
+beautifulsoup4==4.8.0
+argparse==1.4.0
+pbr!=2.1.0,>=2.0.0 # Apache-2.0
