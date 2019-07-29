@@ -24,7 +24,10 @@ def get_row_of_one_word(row_num, word):
     _as = antonyms_srawler.AntonymsScrawler(word)
     gs = google_scrawler.GoogleScrawler(word)
     row_entrys = {}
-    row_entrys.update(gs.get_info_of_word())
+    _info = gs.get_info_of_word()
+    print("_info: %s " % _info)
+    row_entrys.update(_info)
+    # row_entrys.update(gs.get_info_of_word())
     row_entrys.update(_as.get_antonyms_of_word())
     row_entrys.update({".no": str(row_num + 1)})
     return make_xlsx.XlsxRow(row_num,
@@ -35,6 +38,7 @@ def thread_function(words_list, list_start_offset, word_row_list):
     for index, word in enumerate(words_list):
         word_row = get_row_of_one_word(index + list_start_offset, word)
         word_row_list.append(word_row)
+        # make_xlsx_obj.add_xlsx_row(word_row)
 
 
 def convert(input_file_path, output_file_path, delimiter, thread_number=1):

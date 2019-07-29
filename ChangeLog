@@ -1,0 +1,6 @@
+CHANGES
+=======
+
+* Lack of data about word phrase, common level. Threading has trouble with race thread problem when program run with many threads
+* Lack of data about word phrase, common level. Threading has trouble with race thread problem when program run with many threads
+* Initial commit
