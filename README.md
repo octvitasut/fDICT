@@ -1,4 +1,15 @@
 # EnViWord_list
+
+## Introduce
+Fdict is a translation scrawler program. Its input is a file which contains
+english word, seperate wich each others using a specified symbol (E.x "," or
+"|").
+Fdict program will take some information (means, example. antonyms,...) 
+about each English word and generate ouput as a xlsx file.
+
+The following is content of an example input file used by fdict:
+bird |love | human|interesting| nice| red 
+
 ## Installation
 * Download source code.
 ```
@@ -41,3 +52,11 @@ optional arguments:
                         Number of threads will be used to run program. This
                         value must >= 1.
 ```
+E.x: we have an input file with path "/home/fdict/inputfile.txt" and want 
+a result file with path "/root/outputfile.xlsx". Run following command in 
+console:
+```
+envi-convert /home/fdict/inputfile.txt /root/outputfile.xlsx -d "|" -t 20
+```
+The above command run fdict with 20 threads and input file use "|" character
+ as delimiter.

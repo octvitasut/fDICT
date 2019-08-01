@@ -1,0 +1,3 @@
+[console_scripts]
+envi-convert = EnViWord_list.convert_envi_word_list:main
+
