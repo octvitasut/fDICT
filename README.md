@@ -9,6 +9,10 @@ fDICT - Top Free Dictionary
 5. Clean & Convenient UI
 6. Support upto 100.000 words
 
+# Supported Client
+- Web
+- Mobile: Android, iOS
+
 # Advantages & Differences
 
 # Demo
