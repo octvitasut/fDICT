@@ -21,3 +21,7 @@ fDICT - Top Free Dictionary
 # Advantages & Differences
 
 # Demo
+
+# Refs
+1. https://github.com/rdoeffinger/Dictionary
+2. https://github.com/itkach/aard2-android
