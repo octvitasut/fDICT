@@ -13,6 +13,11 @@ fDICT - Top Free Dictionary
 - Web
 - Mobile: Android, iOS
 
+# Technologies
+- Crawler: 
+  - Scrapy
+  - puppeteer: https://github.com/GoogleChrome/puppeteer
+
 # Advantages & Differences
 
 # Demo
